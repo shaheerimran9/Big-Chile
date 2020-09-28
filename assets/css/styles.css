@@ -311,6 +311,7 @@ html {
 .contact__form input[type=submit] {
     background-color: #8BC34A;
     color: white;
+    -webkit-appearance: none;
 }
 
 .name-group {
@@ -432,6 +433,10 @@ footer {
 
     .category-items__item {
         margin: 1.75rem 1rem;
+    }
+
+    .category-items__item h3 {
+        font-size: 1.75rem;
     }
 
     /* Contact Page */
